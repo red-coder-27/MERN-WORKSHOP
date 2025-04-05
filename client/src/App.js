@@ -14,6 +14,7 @@ function App() {
     <div style={{ padding: '2rem' }}>
       <h1>React Frontend</h1>
       <p>Message from Backend: {message}</p>
+
     </div>
   );
 }

@@ -1,7 +1,12 @@
+require('dotenv').config(); // Must be at the very top!
+require('dotenv').config();
+console.log(" Mongo URI loaded:", process.env.MONGO_URI); // Add this
+
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config(); // Load .env
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
