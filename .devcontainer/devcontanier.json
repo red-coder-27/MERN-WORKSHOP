@@ -1,0 +1,15 @@
+{
+  "name": "MERN Workshop",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "cd server && npm install && cd ../client && npm install",
+  "forwardPorts": [3000, 5000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
+
